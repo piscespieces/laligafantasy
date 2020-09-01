@@ -1,0 +1,26 @@
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+header[role="banner"] {
+  width: 100%;
+}
+
+header > ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+}
+
+header > ul > li {
+  margin-right: 2rem;
+}
+
+.art-container {
+  width: 70%;
+}
+
+.art-container > ol > li {
+  margin-bottom: 1rem;
+}
