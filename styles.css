@@ -1,6 +1,7 @@
-body {
-  font-size: 16px;
+/* body {
+  font-size: 18px;
   box-sizing: border-box;
+  margin: 0;
 }
 
 header[role="banner"] {
@@ -8,19 +9,40 @@ header[role="banner"] {
 }
 
 header > ul {
+  padding: 0;
   width: 100%;
   display: flex;
   list-style-type: none;
+  background: papayawhip;
+  margin-bottom: 5rem;
 }
 
-header > ul > li {
-  margin-right: 2rem;
+header > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main > section > h1 {
+  text-align: center;
+}
+
+main > section > h4 {
+  text-align: center;
 }
 
 .art-container {
   width: 70%;
+  margin: 0 auto;
+} */
+
+/* .art-container > ol > li {
+  margin-bottom: 2rem;
+} */
+
+.bg-darkblue {
+  background: #333d57;
 }
 
-.art-container > ol > li {
-  margin-bottom: 1rem;
+.text-light {
+  color: hsla(0, 0%, 100%, 0.5);
 }

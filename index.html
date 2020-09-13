@@ -5,89 +5,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Fantasy LaLiga Venezuela</title>
 </head>
 
 <body>
-    <header role='banner'>
-        <ul>
-            <li>
-                <a href="#">Constitucion</a>
-            </li>
-            <li>
-                <a href="#">Unete a LaLiga</a>
-            </li>
-        </ul>
+    <header class="mb-4" role='banner'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-darkblue pl-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/LaLiga_Santander.svg" width="50" height="50" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#">Constitucion<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Unete</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <h1>Constitución de LaLiga Fantasy Venezuela</h1>
-            <h4>Gaceta Oficial Extraordinaria #1 de fecha 31 de Agosto de 2020</h4>
-            <h4>
-                <i>De las negociaciones</i>
-            </h4>
-            <div class="art-container">
+        <section class="container">
+            <div class="text-center mb-2">
+                <h1>Constitución de LaLiga Fantasy Venezuela 🇻🇪</h1>
+                <h4 class="mb-4">Gaceta Oficial Extraordinaria #1 de fecha 31 de Agosto de 2020</h4>
+                <h4 class="mb-4">
+                    <i>De las negociaciones</i>
+                </h4>
+            </div>
+            <div class="art-container mb-4">
                 <ol>
                     <li id="art-1">
-                        Todas las negociaciones entre usuarios participantes de “Fantasy LaLiga Venezuela” deben hacerse
-                        por
-                        el WhatsApp
-                        oficial.
+                        <p>Todas las negociaciones entre usuarios participantes de “Fantasy LaLiga Venezuela” deben
+                            hacerse en el grupo de WhatsApp
+                            oficial.
+                        </p>
                     </li>
 
                     <li id="art-2">
-                        Cualquier Usuario infractor del Art 1. Sera sancionado con la obligación de vender a LaLiga el
-                        jugador(es) obtenido(s)
-                        de manera ilícita además de una suspensión de 24 horas del mercado de fichajes.
-                        <br />
-                        De incurrir en una segunda violacion del Art. 1 sera sancionado con la obligacion de vender a
-                        LaLiga
-                        el el jugador(es)
-                        obtenido(s) de manera ilícita además de una suspensión por 72 horas (3 días) del mercado de
-                        fichajes.
-                        <br />
-                        Una tercera concurrencia en la violacion del Art. 1 llevaría a una salida forzosa del usuario en
-                        “Fantasy LaLiga
-                        Venezuela”.
+                        <p>En caso de infringir el Art. 1 dichos infractores deberan deshacer la operacion (por el mismo
+                            monto, o menos) y el
+                            vendedor que aceptó la operación perderá el privilegio de fichar por 72 horas.</p>
+                        <p>De incurrir en una segunda violacion del Art. 1 sera sancionado con la obligacion de deshacer
+                            la operacion (por el mismo
+                            monto), y será expulsado de la liga.
+                        </p>
                     </li>
 
                     <li id="art-3">
-                        El usuario aceptante de una puja no notificada previamente por el grupo de Whatsapp será
-                        sancionado
-                        con la obligación de
-                        comprar el jugador en cuestión vendido al mismo usuario comprador por el mismo precio, de manera
-                        que
-                        quede anulada de
-                        forma económica la transacción.
-                        <br />
-                        El usuario con posesión del jugador (previamente el usuario pujante) está en la obligación de
-                        permitir la transacción y
-                        de notificar al administrador de LaLiga.
-                        <br />
-                        De no llevarse a cabo el artículo en cuestión (Art. 3) debido a una negligencia de cualquiera de
-                        los
-                        involucrados en la
-                        transacción (pujante y aceptante), las sanciones en acción serán las estipuladas en el Art. 2 de
-                        esta constitución
+                        <p>
+                            Después de que un usuario anuncie públicamente por el grupo de Whatsapp estar abierto a
+                            negociaciones por un jugador,
+                            debe el usuario vendedor esperar unos 15 minutos después de notificar para llevar a cabo la
+                            transacción, a menos que
+                            cinco o más usuarios estén notificados de la oferta.
+                        </p>
                     </li>
 
-                    <li id="art-4">
-                        Después de que un usuario anuncie públicamente por el grupo de Whatsapp estar abierto a
-                        negociaciones por un jugador,
-                        debe el usuario ofertante esperar unos 15 minutos después de notificar para llevar a cabo la
-                        transacción, a menos que
-                        dos o más usuarios estén notificados de la oferta.
+                    <li>
+                        <p>
+                            Está prohibido para terceros en las negociaciones públicas, emitir opiniones o juicios que
+                            puedan afectar el curso de la
+                            misma, cómo comentarios acerca de la calidad, lesiones, o futuro de los jugadores, entre
+                            otros.
+                        </p>
+
+                        <p>
+                            A los infractores de este articulo se les sancionara en una primera incidencia con
+                            suspension por 24 horas de la posibilidad de fichar. La segunda incidencia y consiguientes
+                            seran 72 horas sin posibilidad de fichar.
+                        </p>
                     </li>
 
+                    <li>
+                        <p>
+                            Quien realice negociaciones con un jugador que cumple periodo de sanción por cualquiera de
+                            los artículos de esta ley, se
+                            sancionarán con: 72 horas en la primera incidencia, 1 semana con la segunda y las siguientes
+                            incidencias, reversando
+                            además las transacciones realizadas
+                        </p>
+                    </li>
                 </ol>
             </div>
+
+            <div class="text-center mb-2">
+                <h4 class="mb-4">
+                    <i>De las confabulaciones</i>
+                </h4>
+            </div>
+
+            <div class="art-container mb-4">
+                <ol start="4">
+                    <li>
+                        <p>
+                            Todo jugador tiene derecho de reportar cualquier transacción que considere o sospeche
+                            que se encuentra basada bajo
+                            hechos confabulatorios entre dos o más jugadores para sacar provecho de forma ilícita de
+                            ella. La transacción estará
+                            bajo la discusión del moderador y consejo legislativo de la liga y se encargarán de
+                            determinar en un periodo no mayor de
+                            24 horas si se trata de una acción con intención de dolo, y determinará si debe
+                            reversarse, o no, la o las transacciones
+                            reportadas, así como todas aquellas subsiguientes que hayan podido surgir de la primera.
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Las sanciones para quienes sean identificados como infractores del artículo 3, son:
+                            Reversa de todas las transacciones involucradas y expulsión irrevocable de los infractores.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="text-center mb-2">
+                <h4 class="mb-4">
+                    <i>Del consejo de gobierno</i>
+                </h4>
+            </div>
+
+            <div class="art-container mb-4">
+                <ol start="6">
+                    <li>
+                        <ul class="mb-4">
+                            <li>
+                                Moderador de la liga - Juan Bozo
+                            </li>
+
+                            <li>
+                                Jefe de consejo - Yon
+                            </li>
+
+                            <li>
+                                Senadores - Hacobo, Porra y El Negro
+                            </li>
+                        </ul>
+                        <p>
+                            Cada uno con el mismo poder y valor de voto. Los empates serán decididos por el moderador.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+
         </section>
     </main>
 
     <footer>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
